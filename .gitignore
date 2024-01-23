@@ -1,0 +1,5 @@
+#Ignore IDE folders, .idea, __pycache__ and venv
+
+.idea/
+__pycache__/
+venv/
