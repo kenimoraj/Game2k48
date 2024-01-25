@@ -1,11 +1,11 @@
 # Game2k48
 
-This project is an implementation of a super famous game "2048".
+This project is an implementation of a once super popular game "2048".
 The goal was actually to play around with GUI and animating objects on Tkinter Canvas, so the console version is really just a byproduct of trying to get the tile movement logic right.
 
 ![image](https://github.com/kenimoraj/Game2k48/assets/73795771/113710b8-4ee3-4e95-bb74-7af1c394426c)
 
-The rules are very straightforward: by moving the tiles UP, DOWN, LEFT or RIGHT, tiles with the same number are combined into one with double the value.
+The rules are very straightforward: by moving the tiles UP, DOWN, LEFT or RIGHT, tiles with the same number are merged into one with double the value.
 The goal is to achieve a 2048 tile, though game can go on until there is no next movement possible.
 
 Standard 2048 board is 4x4, with 2 initial tiles.
@@ -21,7 +21,7 @@ Here is the GUI version for a 7x7 board and 33 initial tiles:
 
 In this version the entire board is written out in console, and consecutive movements are achieved by typing W, S, A, D into the terminal.
 If you launch it in Command-Line/Terminal, screen gets cleared after each movement.
-This is the screenshot from PyCharm, so it's clear how it looks like to interact with the program:
+This is the screenshot from PyCharm, so it's clear what it's like to interact with the program.
 
 ![image](https://github.com/kenimoraj/Game2k48/assets/73795771/2cdb1b63-5031-49a8-b77e-ad8a34e7f475)
 
